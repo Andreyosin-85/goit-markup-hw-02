@@ -113,7 +113,8 @@ body {
   background: var(--btn-background-color);
   color: var(--second-color);
 }
-.hero-btn:is(:hover, :focus) {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--focus-text-color);
 }
 
@@ -209,7 +210,7 @@ body {
 .filter-elements {
 }
 .filter-btn {
-  font-family: inherit, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
