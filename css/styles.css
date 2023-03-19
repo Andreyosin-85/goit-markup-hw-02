@@ -115,7 +115,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--focus-text-color);
+  background-color: var(--focus-text-color);
 }
 
 /* ------ABOUT US------ */
